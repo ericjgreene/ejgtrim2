@@ -21,7 +21,6 @@
      height: 100%;
     body {
      background: #114B5F;
-
    }
  }
  .trimform {
@@ -30,8 +29,6 @@
    margin-top: 3em;
    margin-right: 45em;
    margin-left: 3em;
-
-
    font-family: "MuseoSans-500";
  }
  @font-face {
