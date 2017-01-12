@@ -4,6 +4,6 @@ class UserMailer < ApplicationMailer
   def welcome_email(user)
     @user = user
     # @url = ‘http://google.com’
-    mail :to => "ericjgreene@gmail.com", :subject => "Eric Greene Trim Questionaire",
+    mail :to => "ericjgreene@gmail.com", :subject => "Eric Greene Trim Questionaire"
   end
 end
