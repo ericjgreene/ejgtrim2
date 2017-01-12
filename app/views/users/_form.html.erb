@@ -1,6 +1,6 @@
 
 <div class="outerbackground">
-
+<div class="trimform">
 <%= form_for(user) do |f| %>
   <% if user.errors.any? %>
     <div id="error_explanation">
@@ -31,11 +31,18 @@
   </div>
 
   <div class="field form-group row">
-    <%= f.number_field :ubpfo, :placeholder => 'USING BEST PRACTICES FOR OPP', :class => 'form-control trimfield' %>
+    <label for="example-number-input" class="col-9 col-form-label">USING BEST PRACTIVES FOR OPP:</label>
+  <div class="col-3">
+    <%= f.number_field :ubpfo, :placeholder => '10', :class => 'form-control trimfield' %>
+  </div>
   </div>
 
+
   <div class="field form-group row">
-    <%= f.number_field :md, :placeholder => 'MODULAR DEVELOPMENT', :class => 'form-control trimfield' %>
+    <label for="example-number-input" class="col-9 col-form-label">MODULAR DEVELOPMENT:</label>
+<div class="col-3">
+    <%= f.number_field :md, :placeholder => '20', :class => 'form-control trimfield' %>
+  </div>
   </div>
 
   <div class="actions">
@@ -43,4 +50,5 @@
   </div>
 <% end %>
 
+</div>
 </div>
