@@ -66,7 +66,7 @@ Rails.application.configure do
     port: "587",
     domain: "gmail.com",
     authentication: "plain",
-    enable_starttls_auto: true,
+    # enable_starttls_auto: true,
     user_name: ENV['SENDGRID_USERNAME'],
     password: ENV['SENDGRID_PASSWORD']
   }
