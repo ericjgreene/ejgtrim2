@@ -24,47 +24,7 @@ html {
  .outerbackground {
    background: #114B5F;
  }
- .trimform {
-   background-color: #456990;
-   padding: 2%;
-   margin-top: 3em;
-   margin-right: 53%;
-   margin-left: 3em;
-   font-family: "MuseoSans-500";
- }
- @font-face {
-     font-family: "MuseoSans-500";
- }
- .form-control {
-   font-family: "MuseoSans-500";
-   background-color: #F45B69;
-   color: white;
- }
 
- .btn-primary {
-   font-family: "MuseoSans-500";
- }
-
- .trimfield {
-   background-color: #E4FDE1;
-   color: #6BADAC;
- }
-
- .trimsubmit {
-   background-color: #F45B69;
-   color: white;
-   border-color: #F45B69;
- }
-
- .row {
-   display: flex;
-   margin-left: 0.1em;
-   margin-right: 0.1em;
- }
-
- .col-form-label {
-   color: white;
- }
 
  $green: #1ECD97;
  $gray: #bbbbbb;
@@ -143,4 +103,48 @@ html {
    to {
      transform: rotate(360deg);
    }
+ }
+
+
+
+ .trimform {
+   background-color: #456990;
+   padding: 2%;
+   margin-top: 3em;
+   margin-right: 53%;
+   margin-left: 3em;
+   font-family: "MuseoSans-500";
+ }
+ @font-face {
+     font-family: "MuseoSans-500";
+ }
+ .form-control {
+   font-family: "MuseoSans-500";
+   background-color: #F45B69;
+   color: white;
+ }
+
+ .btn-primary {
+   font-family: "MuseoSans-500";
+ }
+
+ .trimfield {
+   background-color: #E4FDE1;
+   color: #6BADAC;
+ }
+
+ .trimsubmit {
+   background-color: #F45B69;
+   color: white;
+   border-color: #F45B69;
+ }
+
+ .row {
+   display: flex;
+   margin-left: 0.1em;
+   margin-right: 0.1em;
+ }
+
+ .col-form-label {
+   color: white;
  }
