@@ -26,7 +26,7 @@ https://www.dropbox.com/s/fcmmghnfrszfk6l/codingchallenge.psd?dl=0
 
 8. As an apprentice user, I want to submit the form as my final step, so that I can prove that I have finished the exercise.
 
-9. As an apprentice user, I want my data to be emailed to  tim@trimagency.com  so that it shows project completion.
+9. As an apprentice user, I want my data to be emailed to  trimagency.com  so that it shows project completion.
 
 10. As the product owner, I want to write the data to the PostGreSQL table so that we have record of all entries of this form.
 
